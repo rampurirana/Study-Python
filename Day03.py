@@ -32,3 +32,13 @@ print(type(fruits))
 print(type(numbers))
 print(type(unique_numbers))
 print(type(person))
+
+# Exersize Questions
+
+# Create simple caculator
+number1 = 50
+number2 = 5
+print("Calculation of",number1,"+",number2,"=", number1 + number2)
+print("Calculation of",number1,"-",number2,"=", number1 - number2)
+print("Calculation of",number1,"*",number2,"=", number1 * number2)
+print("Calculation of",number1,"/",number2,"=", number1 / number2)
