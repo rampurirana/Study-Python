@@ -17,3 +17,8 @@ print(check.isspace()) #check if string contains only whitspaces
 print(check.isupper()) #check if all character are uppercase
 print(check.islower()) #check if all character are lowercase
 print(check.istitle()) #check if string follows title case
+
+# 3. Searching and Finding
+find = "Rampravesh Rana"
+print(find.find("ravesh")) #returns the index of first occurance of the substring
+print(find.count("a")) #counts the number of the same [a = 4] character in the stirng
