@@ -29,3 +29,10 @@ print(mod.replace("Thank", "Hello")) #replace the subtring
 print(mod.strip()) #removes the leading and trailing spaces
 print(mod.lstrip()) #removes the leading spaces
 print(mod.rstrip()) #removes the trailing spaces
+
+# 5. Spliting and Joining
+strignFruits = "mango, banana, apple"
+print(strignFruits.split()) #split a string into lists
+
+listFruits = ["mango", "banana", "apple"]
+print(",".join(listFruits)) #join a list into strings
