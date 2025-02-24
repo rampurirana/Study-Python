@@ -43,3 +43,10 @@ print(alig.center(10, "-")) #center the string within a given width
 print(alig.ljust(10, "-")) #align the string in the left
 print(alig.rjust(10, "-")) #align the string in the right
 print(alig.zfill(5)) #fill the remaining letter with 0
+
+# 7. Encoding and Decoding
+en_de = "hello"
+print(en_de.encode()) #encode the string into bytes
+
+byte_text = b"hello"
+print(byte_text.decode()) #deocde the bytes into normal string
