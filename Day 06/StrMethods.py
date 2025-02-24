@@ -50,3 +50,9 @@ print(en_de.encode()) #encode the string into bytes
 
 byte_text = b"hello"
 print(byte_text.decode()) #deocde the bytes into normal string
+
+# Formatting String
+name = "Rampravesh Rana"
+age = 20
+print("My name is {} and i am {} years old.".format(name, age)) #format a string using placeholder
+print(f"My name is {name} and in am {age} years old.") #Moderan way to format string
