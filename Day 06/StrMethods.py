@@ -22,3 +22,10 @@ print(check.istitle()) #check if string follows title case
 find = "Rampravesh Rana"
 print(find.find("ravesh")) #returns the index of first occurance of the substring
 print(find.count("a")) #counts the number of the same [a = 4] character in the stirng
+
+# 4. Modifying String
+mod = " Thank You "
+print(mod.replace("Thank", "Hello")) #replace the subtring
+print(mod.strip()) #removes the leading and trailing spaces
+print(mod.lstrip()) #removes the leading spaces
+print(mod.rstrip()) #removes the trailing spaces
