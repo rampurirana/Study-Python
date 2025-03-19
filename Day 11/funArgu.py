@@ -21,7 +21,15 @@ error("Riya", 16) # work
 # error("Riya") # not work
 
 # 4. Arbitrary Arguments : Arbitrary arguments allow a functions to accept multliple variable number of arguments. These arguments are passed into the function as a tuple
-def addition(*add):
-    print(add) #passed as tuple
+def addition(*add): #single star define arbitary arguments
+    print(add) #print as tuple
     print(sum(add)) #add all numbers
 addition(2, 4, 6, 8)
+
+# Arbitrary Keyword Arguments : Arbitrary keyword arguments allow a function to accept a variable number of named (keyword) arguments. These arguments are passed into the function as a dictionary
+def arbiKey(**kid): #double star define arbitrary keyword
+    print(kid) #print as dictionary
+    for key, value in kid.items(): # key is the argument name, vlaue is the argument vlaues
+        print(key, value)
+
+arbiKey(name = "Rampuri Rana", age = 20, rollNum = 1323161)
