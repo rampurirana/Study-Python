@@ -19,3 +19,9 @@ def error(name, age):
     print("Age :", age)
 error("Riya", 16) # work
 # error("Riya") # not work
+
+# 4. Arbitrary Arguments : Arbitrary arguments allow a functions to accept multliple variable number of arguments. These arguments are passed into the function as a tuple
+def addition(*add):
+    print(add) #passed as tuple
+    print(sum(add)) #add all numbers
+addition(2, 4, 6, 8)
