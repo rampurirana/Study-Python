@@ -7,8 +7,15 @@ def greet(name, age = 20):
 greet("Rampravesh Rana") # uses default age = 20
 greet("Ashish Rana", 25) # overrides default age
 
-# 2. Keeyword Arguments : Keyword arguments that use parameter names to assign the values rather than order
+# 2. Keyword Arguments : Keyword arguments that use parameter names to assign the values rather than order
 def details(name, age):
     print("Name :",name)
     print("Age :",age)
 details(age = 15, name = "Sagar") # order does not matter
+
+# 3. Required Arguments : Required arguments are functions parameters that must be provided when calling the functions. If is required arguments is missing, Python raises a Type Error
+def error(name, age):
+    print("Name :", name)
+    print("Age :", age)
+error("Riya", 16) # work
+# error("Riya") # not work
