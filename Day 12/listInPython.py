@@ -20,4 +20,11 @@ print(number) # [5, 30, 15, 20]
 num = [1, 2, 3, 4]
 num.append(5) # 5 add at the end
 num.insert(1, 10) # 10 add at the 1 index
-print(num)
+print(num) # [1, 10, 2, 3, 4, 5]
+
+# Removing elements : remove() = Removes a specific value, pop() = Removes an element by index default is last, del = Deletes an element or the entire list
+nums = [1, 2, 3, 4, 5, 6, 7]
+nums.remove(5)
+nums.pop(1)
+del nums[3]
+print(nums) # [1, 3, 4, 7]
