@@ -15,3 +15,9 @@ print(fruits[-2]) # subtract from len of list = 4-2 = Mango
 number = [5, 10, 15, 20]
 number[1] = 30 # 10 replaced with 30
 print(number) # [5, 30, 15, 20]
+
+# Adding elements : append() = Adds an item to the end, insert() = Adds an item at a specific index
+num = [1, 2, 3, 4]
+num.append(5) # 5 add at the end
+num.insert(1, 10) # 10 add at the 1 index
+print(num)
