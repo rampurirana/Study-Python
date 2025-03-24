@@ -10,3 +10,8 @@ print(myList)
 fruits = ["apple", "Banana", "Mango", "Cherry"]
 print(fruits[0]) # apple
 print(fruits[-2]) # subtract from len of list = 4-2 = Mango
+
+# Modifying Lists : Lists are mutable, that means their elements can be changed
+number = [5, 10, 15, 20]
+number[1] = 30 # 10 replaced with 30
+print(number) # [5, 30, 15, 20]
