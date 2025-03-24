@@ -4,7 +4,7 @@
 
 # list with different data types
 myList = [1, 2, 3, "Rampravesh", 6.5, True]
-print(myList)
+print(myList) # [1, 2, 3, "Rampravesh", 6.5, True]
 
 # Accessing elements : Access elements in list using indexing (Starting from 0) or negative indexing
 fruits = ["apple", "Banana", "Mango", "Cherry"]
@@ -28,3 +28,7 @@ nums.remove(5)
 nums.pop(1)
 del nums[3]
 print(nums) # [1, 3, 4, 7]
+
+# List comprehension : Create a list using a single line of code. It follows the syntax of a for loop
+numbers = [i for i in range(0, 10)]
+print(numbers) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
